@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 .pytest_cache/
+:memory
 
 data/bronze/*
 data/silver/*
@@ -9,3 +10,9 @@ data/gold/*
 !data/bronze/.gitkeep
 !data/silver/.gitkeep
 !data/gold/.gitkeep
+
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.db-shm
+airflow/airflow.db-wal
+airflow/simple_auth_manager_passwords.json.generated
